@@ -1,78 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy - Warship World War 2</title>
-  <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.6;
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-      background: #fafafa;
-      color: #333;
-    }
-    h1, h2 {
-      color: #003366;
-    }
-    hr {
-      margin: 2em 0;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy - DragonSky Co.,Ltd.">
+    <meta name="keywords" content="privacy policy, DragonSky">
+    <title>Privacy Policy - DragonSky Co.,Ltd.</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            background-color: #000;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #000;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .logo {
+            width: 71px;
+            height: 71px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s;
+            padding: 10px 0;
+        }
+
+        nav a:hover {
+            color: #667eea;
+        }
+
+        nav a.active {
+            color: #667eea;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 80px 20px;
+        }
+
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 60px;
+            color: #fff;
+        }
+
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 100px;
+            height: 3px;
+            background: #667eea;
+            margin: 20px auto;
+        }
+
+        .privacy-content {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            padding: 60px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .privacy-text {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #e0e0e0;
+        }
+
+        .privacy-text h3 {
+            color: #fff;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+
+        .privacy-text h3:first-child {
+            margin-top: 0;
+        }
+
+        .privacy-text p {
+            margin-bottom: 15px;
+        }
+
+        .privacy-text ul {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+
+        .privacy-text li {
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #000;
+            padding: 40px 20px;
+            text-align: center;
+            border-top: 1px solid #333;
+            margin-top: 80px;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-text {
+            color: #999;
+            font-size: 14px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .header-container {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .container {
+                padding: 40px 20px;
+            }
+
+            .section-title {
+                font-size: 28px;
+            }
+
+            .privacy-content {
+                padding: 30px 20px;
+            }
+        }
+    </style>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
-  <p><strong>Effective Date:</strong> October 31, 2025</p>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="DragonSky Logo">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#games">Games</a></li>
+                    <li><a href="index.html#about">About Us</a></li>
+                    <li><a href="privacy-policy.html" class="active">Privacy Policy</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  <p>This Privacy Policy describes how <strong>War4Game</strong> ("we", "our", or "us") collects, uses, and protects your information when you use our mobile game <strong>Warship World War </strong> ("the App").</p>
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <section class="section">
+                <h1 class="section-title">Privacy Policy</h1>
+                <div class="privacy-content">
+                    <div class="privacy-text">
+                        <p><strong>Last Updated: December 2024</strong></p>
+                        
+                        <h3>1. Introduction</h3>
+                        <p>DragonSky Co.,Ltd. ("we", "our", or "us") respects your privacy and is committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you use our mobile games and services.</p>
 
-  <h2>1. Information We Collect</h2>
-  <p>We may collect the following types of data when you use our App:</p>
-  <ul>
-    <li>Basic Facebook profile information (if you use Facebook Login), such as name, profile picture, and email.</li>
-    <li>Device information, such as model, operating system, and language.</li>
-    <li>Gameplay data for analytics and player progress.</li>
-  </ul>
+                        <h3>2. Information We Collect</h3>
+                        <p>We may collect the following types of information:</p>
+                        <ul>
+                            <li><strong>Device Information:</strong> Device type, operating system, unique device identifiers</li>
+                            <li><strong>Game Data:</strong> Game progress, achievements, and gameplay statistics</li>
+                            <li><strong>Usage Information:</strong> How you interact with our games and services</li>
+                            <li><strong>Technical Information:</strong> IP address, browser type, and other technical data</li>
+                        </ul>
 
-  <h2>2. How We Use Information</h2>
-  <ul>
-    <li>To provide and improve game services and user experience.</li>
-    <li>To enable Facebook login and social features.</li>
-    <li>To analyze gameplay data and improve balance and performance.</li>
-    <li>To comply with legal requirements if applicable.</li>
-  </ul>
+                        <h3>3. How We Use Your Information</h3>
+                        <p>We use the collected information to:</p>
+                        <ul>
+                            <li>Provide and improve our games and services</li>
+                            <li>Personalize your gaming experience</li>
+                            <li>Analyze game performance and user behavior</li>
+                            <li>Send important updates and notifications</li>
+                            <li>Ensure security and prevent fraud</li>
+                        </ul>
 
-  <h2>3. Data Sharing</h2>
-  <p>We do not sell or rent personal data to third parties. Some data may be shared with trusted partners such as Facebook, analytics, or cloud service providers strictly for the purposes described above.</p>
+                        <h3>4. Data Sharing</h3>
+                        <p>We do not sell your personal information. We may share your data with:</p>
+                        <ul>
+                            <li>Service providers who assist in operating our games</li>
+                            <li>Legal authorities when required by law</li>
+                            <li>Business partners in case of merger or acquisition</li>
+                        </ul>
 
-  <h2>4. Data Retention and Security</h2>
-  <p>We retain your information only as long as necessary for game operation. We use secure storage and industry-standard encryption to protect your data.</p>
+                        <h3>5. Data Security</h3>
+                        <p>We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction.</p>
 
-  <h2>5. Your Rights</h2>
-  <p>If you wish to access, modify, or delete your personal data, please contact us at <a href="mailto:war4gamegm@gmail.com">war4gamegm@gmail.com</a>.</p>
+                        <h3>6. Your Rights</h3>
+                        <p>You have the right to:</p>
+                        <ul>
+                            <li>Access your personal data</li>
+                            <li>Request correction of inaccurate data</li>
+                            <li>Request deletion of your data</li>
+                            <li>Object to processing of your data</li>
+                            <li>Request data portability</li>
+                        </ul>
 
-  <h2>6. Changes to This Policy</h2>
-  <p>We may update this Privacy Policy periodically. The latest version will always be available at this link.</p>
+                        <h3>7. Children's Privacy</h3>
+                        <p>Our games are not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13.</p>
 
-  <h2>7. Contact Us</h2>
-  <p>If you have any questions about this Privacy Policy or our data practices, please contact us via email at <a href="mailto:war4gamegm@gmail.com">war4gamegm@gmail.com</a>.</p>
+                        <h3>8. Changes to This Policy</h3>
+                        <p>We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy on this page and updating the "Last Updated" date.</p>
 
-  <hr>
-  <h2>隐私政策（简体中文）</h2>
-  <p><strong>生效日期：</strong>2025年10月31日</p>
-  <p>本隐私政策说明了<strong>War4Game</strong>（以下简称“我们”）在您使用我们的手机游戏《Warship World War 》（以下简称“本应用”）时如何收集、使用和保护您的信息。</p>
-  <ul>
-    <li>当您使用 Facebook 登录时，我们可能会收集您的基本资料（如姓名、头像、邮箱）。</li>
-    <li>我们可能会收集设备信息（如机型、系统、语言）以优化兼容性。</li>
-    <li>我们可能会记录游戏数据，用于统计与优化游戏体验。</li>
-  </ul>
-  <p>如需删除或修改个人数据，请通过邮箱联系我们：<a href="mailto:war4gamegm@gmail.com">war4gamegm@gmail.com</a>。</p>
-  <p>我们不会将您的个人信息出售给任何第三方。</p>
+                        <h3>9. Contact Us</h3>
+                        <p>If you have any questions about this privacy policy or our data practices, please contact us directly.</p>
+                        <p>DragonSky Co.,Ltd.<br>
+                        All rights reserved © DragonSky Co.,Ltd.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
 
-  <p>本隐私政策可能会定期更新，最新版本将在此页面发布。</p>
-
-  <p>© 2025 War4Game. All rights reserved.</p>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p class="footer-text">All rights reserved © DragonSky Co.,Ltd.</p>
+        </div>
+    </footer>
 </body>
 </html>
